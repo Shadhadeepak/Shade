@@ -27,7 +27,7 @@ const Add = (
             <button className='cursor-pointer text-xl' onClick={()=>handleQuantity('i')}>+</button>
           </div>
           {stockNumber > 0 ? (
-          <div className=" text-sm">Only <span className='text-orange-400'>{stockNumber} items </span>left! <br /> "Don't" miss it</div>
+          <div className=" text-sm">Only <span className='text-orange-400'>{stockNumber} items </span>left! <br /> &quot;Don&apos;t&quot; miss it</div>
 
           ):(<div>The Product is <span className='bolder text-red-500'>Out of stock</span></div>)}
         </div>

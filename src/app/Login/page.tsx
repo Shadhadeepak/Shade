@@ -152,7 +152,7 @@ function LoginPage() {
       {mode==MODE.REGISTER ? (
         <div className="text-sm underline cursor-pointer" onClick={()=>{setMode(MODE.LOGIN)}}>Have an account? Login</div>
       ) : mode==MODE.LOGIN ? (
-        <div className="text-sm underline cursor-pointer" onClick={()=>{setMode(MODE.REGISTER)}}>Don't have an account?  Register</div>
+        <div className="text-sm underline cursor-pointer" onClick={()=>{setMode(MODE.REGISTER)}}>Don&apos;t have an account?  Register</div>
       ) : mode==MODE.RESET_PASSWORD ? (
         <div className="text-sm underline cursor-pointer" onClick={()=>{setMode(MODE.LOGIN)}}> Go Backto Login</div>
       ):null}
