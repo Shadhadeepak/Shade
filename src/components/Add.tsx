@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 const Add = (
-  {productId,variantId,stockNumber}:{productId:string,variantId:string,stockNumber:number}
+  {productId,variantId,stockNumber}:{productId:any,variantId:string,stockNumber:number}
 ) => {
   // const stock = 4
   

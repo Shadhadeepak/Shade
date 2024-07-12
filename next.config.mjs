@@ -1,7 +1,6 @@
-import { hostname } from 'os';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: 'export',
     images: {
         remotePatterns: [
             {
@@ -12,10 +11,8 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'static.wixstatic.com',
             },
-
         ],
     },
-    
 };
 
 export default nextConfig;
