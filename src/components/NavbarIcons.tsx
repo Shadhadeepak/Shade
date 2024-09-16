@@ -17,6 +17,14 @@ function NavbarIcons() {
         else
             SetisProfileOpen(!isProfileOpen)
     }
+
+
+
+
+
+
+
+    
     return (
 
 
